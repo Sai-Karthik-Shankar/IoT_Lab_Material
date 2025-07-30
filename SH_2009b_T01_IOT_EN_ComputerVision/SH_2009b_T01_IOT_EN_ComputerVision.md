@@ -4,7 +4,7 @@ Sai Karthik Shankar - 2024 Nov 10 - adapted for raspberry pi 5 support
 --->
 
 **Learning Lab: Internet of Things (IOT)**  <img style="float:right" src="../8000_Global_Files/THWS.png" height="50">  
-2024/25 winter semester | module |  
+2025/26 winter semester | module |  
 
 <!-- TODO Update Bullseye camera https://www.raspberrypi.com/documentation/computers/camera_software.html-->
 ***
@@ -27,13 +27,11 @@ Sai Karthik Shankar - 2024 Nov 10 - adapted for raspberry pi 5 support
   
 ## Solutions Steps
 1. Connect the Raspberry Pi camera
-   - Shut the Raspberry Pi down and unplug it.
+   - **Shut the Raspberry Pi down and unplug it.**
    - If a sense hat is connected to the board, remove it to gain better access to it.
-   - Connect the Raspberry Pi camera correctly, you find further details on this website  <https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2> 
+   - Connect the Raspberry Pi camera correctly, as shown in the picture below.
 
-   The information on the link is for an old Raspberry Pi OS version, you don't need to go to configuration and enable the camera interface in Bullseye version. It is enabled by default and recognises the camera automatically when it is plugged.
-
-
+      <img style="left" src="../9000_Specific_Files/2009b_camera_connection.png" width=350>
 
 2. Take a picture using the terminal (Command Line Interface, CLI) and save it in the folder /home/pi/Documents 
    You find further details here: <https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/3>
@@ -52,7 +50,7 @@ Sai Karthik Shankar - 2024 Nov 10 - adapted for raspberry pi 5 support
    - The latest version of the package ```node-red-contrib-image-output```
    - Version 1.3.1 of the package```node-red-contrib-teachable-machine```
    - Install the package ```node-red-contrib-rpicamera``` from <https://gitlab.vlab.fm.thws.de/iotlab/material/raw/main/node-red-contrib-rpicamera.tgz>
-- Hints-
+- Hint-
    - npm install documentation - <https://docs.npmjs.com/cli/v10/commands/npm-install>
    - wget starter guide - <https://www.computerhope.com/unix/wget.htm>
 7. Build your flows 
@@ -61,6 +59,7 @@ Sai Karthik Shankar - 2024 Nov 10 - adapted for raspberry pi 5 support
    <img style="left" src="../9000_Specific_Files/2009b_cameraFlowPreview.png" width=500>
   - Classify an object using the Raspberry Pi camera.
   We additionally need a  a "teachable machine" node. Wire the nodes as follows:
+  
      <img style="left" src="../9000_Specific_Files/2009b_ClassifyFlow.png" width=500>
      
      You need to specify the following settings:

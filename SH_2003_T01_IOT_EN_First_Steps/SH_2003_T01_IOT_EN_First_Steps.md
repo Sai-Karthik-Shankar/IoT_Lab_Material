@@ -10,7 +10,7 @@ Sonja Hofauer  - 2020 Sept 02 - combined 2001, 2003 for FHWS
 -->
 
 **Learning Lab: Internet of Things (IoT)**   <img style="float:right" src="../8000_Global_Files/THWS.png" height="50">  
-2024/25 winter semester | module |  
+2025/26 winter semester | module |  
 
 ***
 

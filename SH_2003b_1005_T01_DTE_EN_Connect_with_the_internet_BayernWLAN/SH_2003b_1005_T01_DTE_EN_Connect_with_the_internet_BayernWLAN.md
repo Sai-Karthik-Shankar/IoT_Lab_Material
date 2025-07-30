@@ -15,7 +15,7 @@ See also
   
 --->
 **Learning Lab: Internet of Things (IoT)**   <img style="float:right" src="../8000_Global_Files/THWS.png" height="50">  
-2024/25 winter semester | module |  
+2025/26 winter semester | module |  
 
 ***
 # Assignment 02: Connect with the Internet - BayernWLAN
@@ -69,7 +69,7 @@ Save the changes. At this point, the wpa-supplicant configuration file will norm
 
    this will give you a picture like this [1]:  
 
-   <img src="../9000_Specific_Files/IOT/2009b_wlan.png" title="Network address" width=500>  
+   <img src="../9000_Specific_Files/2009b_wlan.png" title="Network address" width=500>  
 
    The lines where your IP stands is in the wlan0 section.
    inet: **192.168.18.218** is your IP address for *wifi connection*. This is a unique address in your network only one device can have this address.  
@@ -92,7 +92,7 @@ Source of this assignment: https://www.raspberrypi.org/
 ## Retrospective
 
 Please answer the following questions
-1. When do you have an IP and when do you have a MAC?
+1. What is the difference between MAC and IP?
 
 2. Do you find an easier way to configure your WiFi access?
 

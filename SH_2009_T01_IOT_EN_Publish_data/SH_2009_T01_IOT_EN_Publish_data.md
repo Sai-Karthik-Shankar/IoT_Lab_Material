@@ -5,7 +5,7 @@ Sonja Hofauer  - 2020 Sept 02 - adapted for FHWS
 --->
 
 **Learning Lab: Internet of Things (IOT**  <img style="float:right" src="../8000_Global_Files/THWS.png" height="50">  
-2024/25 winter semester | module |  
+2025/26 winter semester | module |  
 
 ***
 # Assignment 07: Publish Data
@@ -79,7 +79,7 @@ For the topic, we will use sensor.
 
 Now, we have to publish something. Let's publish the string Temperature.
 
-<img src="../9000_Specific_Files/2009_MQTT_3.jpg" width=400><
+<img src="../9000_Specific_Files/2009_MQTT_3.jpg" width=400>
 
 To simulate the scenario on our raspberry we just need a subscribe flow. Use an input mqtt node and a debug node. The broker ID has to be the above mentioned ID with the same topic. Deploy and press on inject. You should see the word Temperature.
 

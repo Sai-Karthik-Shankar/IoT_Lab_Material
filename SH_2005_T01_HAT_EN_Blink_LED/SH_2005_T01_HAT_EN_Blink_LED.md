@@ -11,7 +11,7 @@ Similar to `1007_T01_DTE_EN_Blink_LED.md`
 -->
 
 **Learning Lab: Internet of Things (IoT)**  <img style="float:right" src="../8000_Global_Files/THWS.png" height="50">  
-2024/25 winter semester | module |  
+2025/26 winter semester | module |  
 ***
 # Assignment 03: Blink LED
 
@@ -124,7 +124,6 @@ The **wiring** can be done the following way:
 ![Pin Map](../9000_Specific_Files/1007_RP2_Pinout.png)
 (Source [3])
 
-A german tutorial to setup the GPIOs <http://raspberrypiguide.de/howtos/raspberry-pi-gpio-how-to/>
 
 ## Hints
 

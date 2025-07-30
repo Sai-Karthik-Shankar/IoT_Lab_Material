@@ -4,7 +4,7 @@ Sonja Hofauer  - 2020 Sept 02 - adapted for FHWS
 --->
 
 **Learning Lab: Internet of Things (IOT)**  <img style="float:right" src="../8000_Global_Files/THWS.png" height="50">  
-2024/25 winter semester | module |  
+2025/26 winter semester | module |  
 
 ***
 # Assignment 05: First Steps in Node-Red
